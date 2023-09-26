@@ -37,7 +37,7 @@ const Home = ({ children }) => {
               <FiGithub className='text-[16px] my-2 xl:text-[20px] xl:my-3' />
             </a>
             <a
-              href='www.linkedin.com/in/yatin-bahl-2b57ba230'
+              href='www.linkedin.com/in/yatin-bahl-2b57ba230/'
               target='_blank'
               rel='noreferrer'
             >

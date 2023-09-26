@@ -56,7 +56,7 @@ const Contacts = () => {
 
         {/* ERROR */}
         <a
-          href='www.linkedin.com/in/yatin-bahl-2b57ba230'
+          href='www.linkedin.com/in/yatin-bahl-2b57ba230/'
           target='_blank'
           rel='noreferrer'
         >
