@@ -23,7 +23,7 @@ const Intro = () => {
         Hello, fellows. Welcome to my portfolio. I am a frontend developer who
         loves to gain knowledge about development and love to evolve in the
         world of frontend development. Just as I am a fresher in this frontend
-        developer field, this portfolio will guide you my skills and projects...
+        developer field, this portfolio will guide you my skills and projects..
       </p>
 
       <div className='w-full mt-12 lg:hidden'>

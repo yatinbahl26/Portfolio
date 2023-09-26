@@ -1,17 +1,10 @@
 import { useEffect, useState } from "react";
-// import whalelogo from "../assets/whalelogo.png";
-// import whale from "../assets/whale.png";
-// import alphaImg from "../assets/alphaImg.png";
-// import alphaLogo from "../assets/alphaLogo.png";
-import tip from "../assets/Tip_calculator.png";
-import tiplogo from "../assets/Tip_calculator_logo.png";
-// import safekey from "../assets/safekey.png";
-// import safekeylogo from "../assets/safekeylogo.svg";
-import bankist from "../assets/bankist.png";
-import bankistlogo from "../assets/bankist_logo.png";
-// import padiLogo from "../assets/padiLogo.png";
-// import whatsappImg from "../assets/whatsappImg.png";
-// import whatsappLogo from "../assets/whatsappLogo.png";
+import tip from "./Tip_calculator.png";
+import tiplogo from "./Tip_calculator_logo.png";
+
+import bankist from "./bankist.png";
+import bankistlogo from "./bankist_logo.png";
+
 import { IoIosArrowForward } from "react-icons/io";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,7 +19,6 @@ const Projects = () => {
   const handleHoverLeave = () => {
     setIsHovered(false);
   };
-
   useEffect(() => {
     AOS.init();
     AOS.refresh();
