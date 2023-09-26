@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.cdnfonts.com/css/circular-std");
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+
+.poppins {
+  font-family: Poppins;
+}
+.clash {
+  font-family: "Clash Display", sans-serif;
+}
+
+.my-mail {
+  writing-mode: vertical-lr;
+}
+
+.container {
+  width: 125px;
+  overflow: hidden;
+}
+
+.scrolling-text {
+  white-space: nowrap;
+  animation: scroll-left 25s infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.txt {
+  background: linear-gradient(
+      272.61deg,
+      #feed7a 43.38%,
+      #ff8400 70.17%,
+      #df91f7 98.11%
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
