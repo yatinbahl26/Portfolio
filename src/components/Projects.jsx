@@ -2,13 +2,12 @@ import { useEffect, useState } from "react";
 import tip from "../assets/Tip_calculator.png";
 import tiplogo from "../assets/Tip_calculator_logo.png";
 
-import bankist from "../assets/bankist.png";
+import bankist from "../assets/Bankist.png";
 import bankistlogo from "../assets/bankist_logo.png";
 
 import { IoIosArrowForward } from "react-icons/io";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 const Projects = () => {
   const [isHovered, setIsHovered] = useState(false);
 
