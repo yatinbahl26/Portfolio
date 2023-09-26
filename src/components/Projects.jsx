@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import tip from "./Tip_calculator.png";
-import tiplogo from "./Tip_calculator_logo.png";
+import tip from "../assets/Tip_calculator.png";
+import tiplogo from "../assets/Tip_calculator_logo.png";
 
-import bankist from "./bankist.png";
-import bankistlogo from "./bankist_logo.png";
+import bankist from "../assets/bankist.png";
+import bankistlogo from "../assets/bankist_logo.png";
 
 import { IoIosArrowForward } from "react-icons/io";
 import AOS from "aos";
